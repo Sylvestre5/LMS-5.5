@@ -176,6 +176,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+ 		App\Providers\RegistrationServiceProvider::class,
 
         // Cartalyst Sentinel ServiceProviser
         Cartalyst\Sentinel\Laravel\SentinelServiceProvider::class,
